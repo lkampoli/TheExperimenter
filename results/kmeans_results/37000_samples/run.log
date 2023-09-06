@@ -1,0 +1,80 @@
+2023-09-05 18:14:13,167 Loaded data:
+             Cx        Cy        Cz  ...     DELTA_Ryy   abs_DELTA_K       DELTA_K
+0      0.024022  1.000420  0.089286  ...  2.237530e-11  4.730750e-08 -4.730750e-08
+1      0.072067  1.000550  0.089286  ...  1.759670e-11  5.290250e-08 -5.290250e-08
+2      0.120104  0.999906  0.089286  ...  2.590720e-11  4.857940e-08 -4.857940e-08
+3      0.168065  0.997370  0.089286  ...  1.388310e-11  3.707000e-08 -3.707000e-08
+4      0.215760  0.991893  0.089286  ...  3.470680e-04  6.984468e-03  6.984468e-03
+...         ...       ...       ...  ...           ...           ...           ...
+31995  8.797490  3.035420  0.089286  ... -9.888420e-12  1.920440e-08 -1.920440e-08
+31996  8.842490  3.035420  0.089286  ... -1.008810e-11  1.892480e-08 -1.892480e-08
+31997  8.887500  3.035420  0.089286  ... -9.606870e-12  1.957240e-08 -1.957240e-08
+31998  8.932500  3.035420  0.089286  ... -1.074770e-11  1.858710e-08 -1.858710e-08
+31999  8.977500  3.035420  0.089286  ... -8.266600e-12  2.027550e-08 -2.027550e-08
+
+[32000 rows x 15 columns]
+2023-09-05 18:14:13,202 Train/Test split data:
+             Cx        Cy        Cz  abs_DELTA_U  ...  abs_DELTA_Ryy  DELTA_Ryy  abs_DELTA_K   DELTA_K
+9177   8.072670  0.668163  0.089286     0.143632  ...       0.028179   0.028179     0.025475  0.025475
+22763  7.369040  2.840770  0.089286     0.096718  ...       0.003036   0.003036     0.007496  0.007496
+20819  0.869596  2.752390  0.089286     0.058750  ...       0.004220   0.004220     0.004752  0.004752
+3109   4.956230  0.021241  0.089286     0.146673  ...       0.001813   0.001813     0.021010  0.021010
+14063  2.778070  0.866640  0.089286     0.068961  ...       0.054621   0.054621     0.051250  0.051250
+...         ...       ...       ...          ...  ...            ...        ...          ...       ...
+16144  6.568330  1.561230  0.089286     0.056005  ...       0.026307   0.026307     0.016942  0.016942
+8586   8.410110  0.902542  0.089286     0.174517  ...       0.029629   0.029629     0.029811  0.029811
+4014   0.625893  0.779579  0.089286     0.059980  ...       0.002719   0.002719     0.005843  0.005843
+24722  5.514910  2.928760  0.089286     0.073380  ...       0.001530   0.001530     0.011379  0.011379
+21398  8.932030  2.826100  0.089286     0.067690  ...       0.002636   0.002636     0.004952  0.004952
+
+[25600 rows x 15 columns]
+2023-09-05 18:14:13,204 Nan check:
+0
+2023-09-05 18:14:13,204 Data Loading Finished. Elapsed time: 0:00:00.211535 ---
+2023-09-05 18:14:13,204 Running Clustering:
+2023-09-05 18:17:56,882 Loaded backend qtagg version 5.15.7.
+2023-09-05 18:23:35,947 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:23:38,423 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:24:14,907 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:24:17,391 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:24:22,007 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:25:00,859 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:25:03,361 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:25:07,911 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:25:14,507 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:25:55,561 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:25:58,068 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:26:02,593 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:26:09,223 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:26:17,683 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:26:59,969 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:27:02,354 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:27:06,780 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:27:13,244 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:27:21,555 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:27:31,778 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:28:16,005 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:28:18,417 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:28:23,027 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:28:29,409 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:28:37,890 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:28:48,197 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:29:00,078 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:29:46,199 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:29:48,523 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:29:52,826 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:29:59,678 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:30:07,899 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:30:18,274 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:30:30,427 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:30:44,517 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:31:31,925 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:31:34,258 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:31:39,041 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:31:45,575 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:31:53,646 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:32:03,777 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:32:15,788 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:32:29,510 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:32:45,165 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
+2023-09-05 18:33:02,962 The PostScript backend does not support transparency; partially transparent artists will be rendered opaque.
